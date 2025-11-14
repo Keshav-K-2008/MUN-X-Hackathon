@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Province Insights - EcoAction Canada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-green-600">
+                    🍁 EcoAction Canada
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-green-600">About</a>
+                    <a href="problem.html" class="text-gray-600 hover:text-green-600">Problem</a>
+                    <a href="solution.html" class="text-gray-600 hover:text-green-600">Solution</a>
+                    <a href="dashboard.html" class="text-gray-600 hover:text-green-600">Dashboard</a>
+                    <a href="provinces.html" class="text-green-600 font-semibold hover:text-green-800">Provinces</a>
+                    <a href="tracker.html" class="text-gray-600 hover:text-green-600">Tracker</a>
+                    <a href="sdg.html" class="text-gray-600 hover:text-green-600">SDGs</a>
+                    <a href="community.html" class="text-gray-600 hover:text-green-600">Community</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-green-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Province-Wise Sustainability Insights</h1>
+            <p class="text-xl text-green-100">Explore sustainability data across Canada's provinces and territories</p>
+        </div>
+    </section>
+
+    <!-- Canada Map Placeholder -->
+    <section class="py-12 px-6 bg-white">
+        <div class="container mx-auto">
+            <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl shadow-lg p-12">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Interactive Canada Map</h2>
+                    <p class="text-gray-600">Click on any province or territory to view detailed insights</p>
+                </div>
+                <div class="bg-white rounded-lg p-12 flex items-center justify-center border-2 border-dashed border-gray-300" style="min-height: 400px;">
+                    <div class="text-center text-gray-500">
+                        <div class="text-6xl mb-4">🗺️</div>
+                        <p class="text-lg">Interactive map of Canada would appear here</p>
+                        <p class="text-sm mt-2">Showing all 10 provinces and 3 territories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Province Cards Grid -->
+    <section class="py-16 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Provincial Sustainability Profiles</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- British Columbia -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white p-4">
+                        <h3 class="text-xl font-bold">British Columbia</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">98%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">75%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">High</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Hydroelectric</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alberta -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-orange-500 to-red-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Alberta</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-orange-600">42%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">68%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Growing</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Natural Gas, Wind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saskatchewan -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-yellow-500 to-orange-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Saskatchewan</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-yellow-600">35%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">62%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Moderate</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Coal, Wind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manitoba -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-500 to-teal-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Manitoba</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">97%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">70%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">High</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Hydroelectric</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ontario -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-red-500 to-pink-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Ontario</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">92%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">73%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">Very High</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Nuclear, Hydro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quebec -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-4">
+                        <h3 class="text-xl font-bold">Quebec</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">99%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">77%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">Very High</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Hydroelectric</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Brunswick -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4">
+                        <h3 class="text-xl font-bold">New Brunswick</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-yellow-600">48%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">65%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Moderate</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Nuclear, Hydro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nova Scotia -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-teal-500 to-cyan-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Nova Scotia</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">58%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">68%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">Growing</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Wind, Coal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prince Edward Island -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-400 to-emerald-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Prince Edward Island</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">95%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">72%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-teal-600">High</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Wind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newfoundland and Labrador -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Newfoundland & Labrador</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">96%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">64%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Moderate</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Hydroelectric</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yukon -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-yellow-400 to-amber-500 text-white p-4">
+                        <h3 class="text-xl font-bold">Yukon</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-green-600">97%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">60%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Moderate</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Hydroelectric</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Northwest Territories -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white p-4">
+                        <h3 class="text-xl font-bold">Northwest Territories</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-yellow-600">38%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">55%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-yellow-600">Limited</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Diesel, Hydro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nunavut -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="bg-gradient-to-r from-slate-500 to-gray-600 text-white p-4">
+                        <h3 class="text-xl font-bold">Nunavut</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Renewable Energy:</span>
+                                <span class="font-bold text-orange-600">12%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Recycling Rate:</span>
+                                <span class="font-bold text-blue-600">48%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Green Transit:</span>
+                                <span class="font-bold text-red-600">Limited</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Primary Source:</span>
+                                <span class="font-semibold text-gray-700">Diesel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights Section -->
+    <section class="py-16 px-6 bg-gradient-to-br from-green-50 to-blue-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Key National Insights</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl mb-3">🌊</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Hydropower Leaders</h4>
+                    <p class="text-sm text-gray-600">BC, Quebec, Manitoba, and Newfoundland generate 95%+ renewable energy from hydro</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl mb-3">💨</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Wind Growth</h4>
+                    <p class="text-sm text-gray-600">PEI, Alberta, and Nova Scotia expanding wind capacity rapidly</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="text-4xl mb-3">♻️</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Recycling Champions</h4>
+                    <p class="text-sm text-gray-600">Quebec leads with 77% recycling rate, followed by BC and Ontario</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-6">
+        <div class="container mx-auto text-center">
+            <p class="mb-2">© 2024 EcoAction Canada. Empowering sustainable living across the nation.</p>
+            <p class="text-gray-400 text-sm">Aligned with UNDP Sustainable Development Goals</p>
+        </div>
+    </footer>
+</body>
+</html>
