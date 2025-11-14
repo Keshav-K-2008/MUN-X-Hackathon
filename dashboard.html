@@ -85,4 +85,128 @@
                 </div>
 
                 <!-- Energy Card -->
-                <div class="bg-white rounded-xl shadow-md hover:shadow-
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-bold text-gray-800">Energy</h3>
+                        <div class="text-3xl">⚡</div>
+                    </div>
+                    <div class="text-3xl font-bold text-blue-600 mb-2">340 kWh</div>
+                    <p class="text-sm text-gray-600 mb-4">Consumed this month</p>
+                    <div class="bg-blue-100 rounded-lg p-3">
+                        <p class="text-xs text-blue-700">↓ 12% vs last month</p>
+                    </div>
+                </div>
+
+                <!-- Water Card -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-bold text-gray-800">Water</h3>
+                        <div class="text-3xl">💧</div>
+                    </div>
+                    <div class="text-3xl font-bold text-teal-600 mb-2">8,200 L</div>
+                    <p class="text-sm text-gray-600 mb-4">Used this month</p>
+                    <div class="bg-teal-100 rounded-lg p-3">
+                        <p class="text-xs text-teal-700">↓ 8% vs last month</p>
+                    </div>
+                </div>
+
+                <!-- Transportation Card -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-bold text-gray-800">Travel</h3>
+                        <div class="text-3xl">🚗</div>
+                    </div>
+                    <div class="text-3xl font-bold text-purple-600 mb-2">42 km</div>
+                    <p class="text-sm text-gray-600 mb-4">By sustainable transit</p>
+                    <div class="bg-purple-100 rounded-lg p-3">
+                        <p class="text-xs text-purple-700">↑ 25% vs last month</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Monthly Trends Chart (Placeholder) -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Monthly Trends</h3>
+                    <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-lg p-8 flex items-center justify-center" style="height: 250px;">
+                        <div class="text-center text-gray-500">
+                            <div class="text-4xl mb-2">📊</div>
+                            <p>Interactive chart showing your<br/>sustainability progress over time</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category Breakdown Chart (Placeholder) -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Impact by Category</h3>
+                    <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-8 flex items-center justify-center" style="height: 250px;">
+                        <div class="text-center text-gray-500">
+                            <div class="text-4xl mb-2">🥧</div>
+                            <p>Pie chart showing your impact<br/>distribution across categories</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Activities -->
+    <section class="py-8 px-6">
+        <div class="container mx-auto">
+            <div class="bg-white rounded-xl shadow-md p-6">
+                <h3 class="text-xl font-bold text-gray-800 mb-6">Recent Activities</h3>
+                <div class="space-y-4">
+                    <div class="flex items-center p-4 bg-green-50 rounded-lg">
+                        <div class="text-2xl mr-4">♻️</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-gray-800">Recycled paper products</p>
+                            <p class="text-sm text-gray-600">2 hours ago</p>
+                        </div>
+                        <div class="text-green-600 font-bold">+5 pts</div>
+                    </div>
+                    
+                    <div class="flex items-center p-4 bg-blue-50 rounded-lg">
+                        <div class="text-2xl mr-4">🚴</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-gray-800">Cycled to work</p>
+                            <p class="text-sm text-gray-600">Today at 8:30 AM</p>
+                        </div>
+                        <div class="text-blue-600 font-bold">+10 pts</div>
+                    </div>
+                    
+                    <div class="flex items-center p-4 bg-teal-50 rounded-lg">
+                        <div class="text-2xl mr-4">💡</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-gray-800">Used energy-saving mode</p>
+                            <p class="text-sm text-gray-600">Yesterday at 10:00 PM</p>
+                        </div>
+                        <div class="text-teal-600 font-bold">+3 pts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="py-8 px-6 pb-16">
+        <div class="container mx-auto">
+            <div class="bg-gradient-to-r from-green-600 to-blue-600 rounded-xl shadow-lg p-8 text-white text-center">
+                <h3 class="text-2xl font-bold mb-4">Ready to Log More Actions?</h3>
+                <p class="mb-6 text-green-100">Keep building your eco-score and making a difference!</p>
+                <a href="tracker.html" class="inline-block bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition">
+                    Go to Tracker
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-6">
+        <div class="container mx-auto text-center">
+            <p class="mb-2">© 2024 EcoAction Canada. Empowering sustainable living across the nation.</p>
+            <p class="text-gray-400 text-sm">Aligned with UNDP Sustainable Development Goals</p>
+        </div>
+    </footer>
+</body>
+</html>
