@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - EcoAction Canada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-green-600">
+                    🍁 EcoAction Canada
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-green-600">About</a>
+                    <a href="problem.html" class="text-gray-600 hover:text-green-600">Problem</a>
+                    <a href="solution.html" class="text-gray-600 hover:text-green-600">Solution</a>
+                    <a href="dashboard.html" class="text-green-600 font-semibold hover:text-green-800">Dashboard</a>
+                    <a href="provinces.html" class="text-gray-600 hover:text-green-600">Provinces</a>
+                    <a href="tracker.html" class="text-gray-600 hover:text-green-600">Tracker</a>
+                    <a href="sdg.html" class="text-gray-600 hover:text-green-600">SDGs</a>
+                    <a href="community.html" class="text-gray-600 hover:text-green-600">Community</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-green-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Header -->
+    <section class="bg-gradient-to-r from-green-600 to-blue-600 text-white py-12 px-6">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-2">Your Sustainability Dashboard</h1>
+            <p class="text-green-100">Track your environmental impact in real-time</p>
+        </div>
+    </section>
+
+    <!-- User Eco-Score Section -->
+    <section class="py-8 px-6">
+        <div class="container mx-auto">
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">Your Eco-Score</h2>
+                        <p class="text-gray-600">Based on your tracked behaviors this month</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-6xl font-bold text-green-600 mb-2">78</div>
+                        <div class="text-sm text-gray-500">out of 100</div>
+                    </div>
+                </div>
+                
+                <!-- Progress Bar -->
+                <div class="mt-6">
+                    <div class="bg-gray-200 rounded-full h-4 overflow-hidden">
+                        <div class="bg-gradient-to-r from-green-500 to-blue-500 h-full rounded-full" style="width: 78%"></div>
+                    </div>
+                    <div class="flex justify-between mt-2 text-sm text-gray-600">
+                        <span>Getting Started</span>
+                        <span>Eco-Champion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dashboard Grid -->
+    <section class="py-8 px-6">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <!-- Waste Management Card -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-lg font-bold text-gray-800">Waste</h3>
+                        <div class="text-3xl">♻️</div>
+                    </div>
+                    <div class="text-3xl font-bold text-green-600 mb-2">12.4 kg</div>
+                    <p class="text-sm text-gray-600 mb-4">Recycled this month</p>
+                    <div class="bg-green-100 rounded-lg p-3">
+                        <p class="text-xs text-green-700">↓ 18% vs last month</p>
+                    </div>
+                </div>
+
+                <!-- Energy Card -->
+                <div class="bg-white rounded-xl shadow-md hover:shadow-
